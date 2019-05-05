@@ -20,7 +20,6 @@ class PrimesAndFibonacci {
 	}
 
 	long calculatePrime(long limit) {
-		boolean notAPrime = false;
 		long x = getNextPrime(limit);
 		while (x < limit) {
 			x = getNextPrime(x);
